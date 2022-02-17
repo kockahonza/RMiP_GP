@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1645110025 "main.bcf" "main.bbl" "main" 1645110025
-  "bibliography.bib" 1645109961 30057 203bb4ce1fb91aecc25a1419c7c75328 ""
-  "main.bcf" 1645110024 102400 17ade8f7d8fd29087fced5972bc7ba6b "pdflatex"
+["biber main"] 1645116522 "main.bcf" "main.bbl" "main" 1645116522
+  "bibliography.bib" 1645113660 31901 16fbe0832095b09f72728ad352ec9085 ""
+  "main.bcf" 1645116522 106496 189bca7fc6372e370cc397733bdca1f5 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1645110026 "main.tex" "main.pdf" "main" 1645110026
+["pdflatex"] 1645116523 "main.tex" "main.pdf" "main" 1645116523
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1640600964 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1640600964 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -141,13 +141,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641490134 2920113 255777bd21220b495da433b7418302bf ""
   "images/MS_penningtrap.png" 1645106796 697534 8a074528983aab91de1a0065c37aa516 ""
   "images/NFthe_diagram.png" 1645106796 424397 b6a662c7731b747ed6f5db16eb09e167 ""
-  "main.aux" 1645110026 7473 29fad6942a264edcabea415884bd6009 "pdflatex"
-  "main.bbl" 1645110026 49167 e328b8da14b37fc7a3ba8e21ca6ace1a "biber main"
-  "main.run.xml" 1645110026 2412 4508d18233fac4b53eb2916aa42dfc83 "pdflatex"
+  "main.aux" 1645116522 7499 22dfd3649331fd2e3fa6a9f1e39ed59b "pdflatex"
+  "main.bbl" 1645116523 52377 cfca194e3ea8ff79a5846062037323cf "biber main"
+  "main.run.xml" 1645116522 2412 4508d18233fac4b53eb2916aa42dfc83 "pdflatex"
   "main.tex" 1645107717 792 758d50a57c0e7a8bde45e907ff504a6d ""
   "sections/AoMSoNFthe.tex" 1645107681 3117 c2cafa2178c1cba0dd08a95fdc3a182f ""
-  "sections/MS.tex" 1645109558 5981 200f9343f62cfef6e3a60fc3596e985a ""
-  "sections/MSandNFthe.tex" 1645110026 3404 ece649b7b64dccbfa3e98ebb80bbeb56 ""
+  "sections/MS.tex" 1645115486 6236 1a8cf4393697542c3d9f78e167ab1c3b ""
+  "sections/MSandNFthe.tex" 1645116522 2940 1765f9eaee0b103bf58490f9617d3b28 ""
   "sections/NFtheory.tex" 1645106796 9925 432dda883c9670c5c93a4efa31c08843 ""
   (generated)
   "main.aux"
