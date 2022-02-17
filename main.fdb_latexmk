@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1645105403 "main.bcf" "main.bbl" "main" 1645106279
-  "GroupProject.bib" 1645104767 6693 b8fdf59937fce43df90d0fbfb43bb4dd ""
-  "main.bcf" 1645106272 106459 0ece16f83e6eb1a6e336cab84092b215 "pdflatex"
+["biber main"] 1645110025 "main.bcf" "main.bbl" "main" 1645110025
+  "bibliography.bib" 1645109961 30057 203bb4ce1fb91aecc25a1419c7c75328 ""
+  "main.bcf" 1645110024 102400 17ade8f7d8fd29087fced5972bc7ba6b "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1645106279 "main.tex" "main.pdf" "main" 1645106279
+["pdflatex"] 1645110026 "main.tex" "main.pdf" "main" 1645110026
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1640600964 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1640600964 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1640600964 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -18,6 +18,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1640600964 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1640600964 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1640600964 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1640600964 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1640600964 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1640600964 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1640600964 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -29,6 +30,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1640600964 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1640600964 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1640600964 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1640600964 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1640600964 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/iftex/iftex.sty" 1640600964 6501 4011d89d9621e0b0901138815ba5ff29 ""
   "/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty" 1640600964 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -137,16 +139,16 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1640600964 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641490137 4243317 6cd4c1d3b72728bfa7db8ef2e14c0430 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1641490134 2920113 255777bd21220b495da433b7418302bf ""
-  "images/MS_penningtrap.png" 1645105243 697534 8a074528983aab91de1a0065c37aa516 ""
-  "images/NFthe_diagram.png" 1644926475 424397 b6a662c7731b747ed6f5db16eb09e167 ""
-  "main.aux" 1645106272 4052 9327d90f0cd7ec2494099255190fe2af "pdflatex"
-  "main.bbl" 1645105404 3759 96ddeb78af142eaa88b62c606b66ff2d "biber main"
-  "main.run.xml" 1645106272 2412 23c78554da14d7ef1c4f1cd729f9fd50 "pdflatex"
-  "main.tex" 1645105872 792 c0cddb6d4cbb9fa7d366b066e3562448 ""
-  "sections/AoMSoNFthe.tex" 1645106149 2823 7d36767298d80f6089dd18f5128434ad ""
-  "sections/MS.tex" 1645105599 5796 37a0e384c5dc7d58a68b2ac8c5cd28b2 ""
-  "sections/MSandNFthe.tex" 1645106278 3268 0eacabd2ac766655813a0e31358fba3b ""
-  "sections/NFtheory.tex" 1645105801 9925 432dda883c9670c5c93a4efa31c08843 ""
+  "images/MS_penningtrap.png" 1645106796 697534 8a074528983aab91de1a0065c37aa516 ""
+  "images/NFthe_diagram.png" 1645106796 424397 b6a662c7731b747ed6f5db16eb09e167 ""
+  "main.aux" 1645110026 7473 29fad6942a264edcabea415884bd6009 "pdflatex"
+  "main.bbl" 1645110026 49167 e328b8da14b37fc7a3ba8e21ca6ace1a "biber main"
+  "main.run.xml" 1645110026 2412 4508d18233fac4b53eb2916aa42dfc83 "pdflatex"
+  "main.tex" 1645107717 792 758d50a57c0e7a8bde45e907ff504a6d ""
+  "sections/AoMSoNFthe.tex" 1645107681 3117 c2cafa2178c1cba0dd08a95fdc3a182f ""
+  "sections/MS.tex" 1645109558 5981 200f9343f62cfef6e3a60fc3596e985a ""
+  "sections/MSandNFthe.tex" 1645110026 3404 ece649b7b64dccbfa3e98ebb80bbeb56 ""
+  "sections/NFtheory.tex" 1645106796 9925 432dda883c9670c5c93a4efa31c08843 ""
   (generated)
   "main.aux"
   "main.bcf"

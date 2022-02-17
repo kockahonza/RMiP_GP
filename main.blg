@@ -1,15 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[85] biber:340> INFO - === Thu Feb 17, 2022, 14:43:24
-[98] Biber.pm:415> INFO - Reading 'main.bcf'
-[161] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[174] Biber.pm:4340> INFO - Processing section 0
-[184] Biber.pm:4531> INFO - Looking for bibtex format file 'GroupProject.bib' for section 0
-[185] bibtex.pm:1689> INFO - LaTeX decoding ...
-[194] bibtex.pm:1494> INFO - Found BibTeX data source 'GroupProject.bib'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[227] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[227] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[227] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[232] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[232] bbl.pm:757> INFO - Output to main.bbl
+[72] biber:340> INFO - === Thu Feb 17, 2022, 16:00:26
+[85] Biber.pm:415> INFO - Reading 'main.bcf'
+[168] Biber.pm:952> INFO - Found 20 citekeys in bib section 0
+[189] Biber.pm:4340> INFO - Processing section 0
+[203] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[208] bibtex.pm:1689> INFO - LaTeX decoding ...
+[276] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
+[279] Utils.pm:395> WARN - Duplicate entry key: 'blaum_precision_2012' in file 'bibliography.bib', skipping ...
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[442] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[442] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[442] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[457] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[470] bbl.pm:757> INFO - Output to main.bbl
+[470] Biber.pm:128> INFO - WARNINGS: 1
