@@ -602,6 +602,10 @@ INPUT ./sections/MS.tex
 INPUT sections/MS.tex
 INPUT ./sections/MS.tex
 INPUT sections/MS.tex
+INPUT ./sections/MSandNFthe.tex
+INPUT sections/MSandNFthe.tex
+INPUT ./sections/MSandNFthe.tex
+INPUT sections/MSandNFthe.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
