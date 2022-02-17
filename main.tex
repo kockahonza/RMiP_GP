@@ -6,8 +6,9 @@
 \usepackage{float}
 \usepackage{setspace}
 \usepackage{graphicx}
+\usepackage{changepage}
 \usepackage{titlesec}
-\usepackage{tcolorbox}
+\usepackage{cleveref}
 
 \addbibresource{bibliography.bib}
 
@@ -20,15 +21,26 @@
 
 \begin{center}
     \Huge \textbf{Nuclear force theory and its verification using mass spectrometry}
-    \vspace{1em}
 \end{center}
+
+\vspace{-0.5em}
+
+\begin{center}
+    \begin{adjustwidth}{3em}{3em}
+        The current understanding on nuclear theory is outlined and mass spectrometer’s (MS) role in exploring the nuclear landscape is highlighted. In nuclear physics mass measurement is an essential tool for understanding the strong force and the structure of the nucleus. This is done by measuring the mass of neutron rich or proton rich isotopes approaching the nucleon dripline as these extremities are where the strong force can no longer bind nucleons (even theoretically) to the nucleus. The design and capabilities of MS are reviewed with particular focus on Penning traps and multiple reflection time of flight mass spectrometers.
+    \end{adjustwidth}
+\end{center}
+
+\vspace{1em}
 
 \begin{multicols}{2}
 
-    \input{sections/NFtheory.tex}
-    \input{sections/MS.tex}
-    \input{sections/MSandNFthe.tex}
-    \input{sections/AoMSoNFthe.tex}
+    \input{sections/1Intro.tex}
+    \input{sections/2NFT.tex}
+    \input{sections/3MS.tex}
+    \input{sections/4NMMwrtNFT}
+    \input{sections/5AoMSoNFT.tex}
+    \input{sections/6Summary.tex}
     
     \printbibliography
 
