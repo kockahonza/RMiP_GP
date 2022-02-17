@@ -1,0 +1,35 @@
+\documentclass[a4paper]{article}
+\usepackage[top=60pt,bottom=80pt,left=60pt,right=60pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage[style=numeric]{biblatex}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+
+\addbibresource{GroupProject.bib}
+
+\titlespacing*{\section}{0}{0}{0.3em}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+
+\begin{center}
+    \Huge \textbf{Nuclear force theory and its verification using mass spectrometry}
+    \vspace{1em}
+\end{center}
+
+\begin{multicols}{2}
+
+    \input{sections/NFtheory.tex}
+    \input{sections/MS.tex}
+    
+    \printbibliography
+
+\end{multicols}
+
+\end{document}

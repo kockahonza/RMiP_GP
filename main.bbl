@@ -1,0 +1,74 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{hergert_guided_2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=95131d534e7de601968f5edbce396d58}{%
+           family={Hergert},
+           familyi={H\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{95131d534e7de601968f5edbce396d58}
+      \strng{fullhash}{95131d534e7de601968f5edbce396d58}
+      \strng{bibnamehash}{95131d534e7de601968f5edbce396d58}
+      \strng{authorbibnamehash}{95131d534e7de601968f5edbce396d58}
+      \strng{authornamehash}{95131d534e7de601968f5edbce396d58}
+      \strng{authorfullhash}{95131d534e7de601968f5edbce396d58}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last decade, new developments in Similarity Renormalization Group techniques and nuclear many-body methods have dramatically increased the capabilities ofab initionuclear structure and reaction theory. Ground and excited-state properties can be computed up to the tin region, and from the proton to the presumptive neutron drip lines, providing unprecedented opportunities to confront two- plus three-nucleon interactions from chiral Effective Field Theory with experimental data. In this contribution, I will give a broad survey of the current status of nuclear many-body approaches, and I will use selected results to discuss both achievements and open issues that need to be addressed in the coming decade.}
+      \field{issn}{2296-424X}
+      \field{journaltitle}{Frontiers in Physics}
+      \field{month}{10}
+      \field{note}{Place: Lausanne Publisher: Frontiers Media Sa WOS:000579832900001}
+      \field{title}{A {Guided} {Tour} ofab {initioNuclear} {Many}-{Body} {Theory}}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2022}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{379}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fphy.2020.00379
+      \endverb
+      \verb{file}
+      \verb Full Text:/home/honza/Zotero/storage/UKLPI8M3/Hergert - 2020 - A Guided Tour ofab initioNuclear Many-Body Theory.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.3389%2Ffphy.2020.00379&DestApp=DOI&SrcAppSID=C5unwYEBtGpSS1mKsa5&SrcJTitle=FRONTIERS+IN+PHYSICS&DestDOIRegistrantName=Frontiers+Media+SA
+      \endverb
+      \verb{url}
+      \verb https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=DOISource&SrcApp=WOS&KeyAID=10.3389%2Ffphy.2020.00379&DestApp=DOI&SrcAppSID=C5unwYEBtGpSS1mKsa5&SrcJTitle=FRONTIERS+IN+PHYSICS&DestDOIRegistrantName=Frontiers+Media+SA
+      \endverb
+      \keyw{shell-model,ab initionuclear structure,ab initionuclear reactions,charge radii,configuration-interaction,core polarization,expansions,finite nuclei,many-body theory,monte-carlo methods,nuclear theory,perturbation-theory,renormalization-group,scattering,similarity renormalization group}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
