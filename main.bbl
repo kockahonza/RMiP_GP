@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{none/global//global/global}
     \entry{hergert_guided_2020}{article}{}
       \name{author}{1}{}{%
         {{hash=95131d534e7de601968f5edbce396d58}{%
@@ -36,8 +36,8 @@
       \strng{authorbibnamehash}{95131d534e7de601968f5edbce396d58}
       \strng{authornamehash}{95131d534e7de601968f5edbce396d58}
       \strng{authorfullhash}{95131d534e7de601968f5edbce396d58}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the last decade, new developments in Similarity Renormalization Group techniques and nuclear many-body methods have dramatically increased the capabilities ofab initionuclear structure and reaction theory. Ground and excited-state properties can be computed up to the tin region, and from the proton to the presumptive neutron drip lines, providing unprecedented opportunities to confront two- plus three-nucleon interactions from chiral Effective Field Theory with experimental data. In this contribution, I will give a broad survey of the current status of nuclear many-body approaches, and I will use selected results to discuss both achievements and open issues that need to be addressed in the coming decade.}
