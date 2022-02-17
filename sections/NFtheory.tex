@@ -3,76 +3,49 @@ Ever since it was discovered that the nucleus is made up from protons and neutro
 The logical answer would be a force, though the only two forces known at the time were the gravitational and the electromagnetic.
 However, neither of these could be the one as protons and neutrons don't have opposite charges and the gravitational force is far too weak to explain the phenomenon.
 % So it was concluded it must be another force, called the nuclear force, which we now know to be residual effects of the strong force between quarks, another fundamental force.
-So it was concluded it must be another force, called the nuclear force. \cite{hergert_guided_2020}
+So it was concluded it must be another force, called the nuclear force. \cite{hergert_guided_2020, machleidt_chiral_2011}
 
 % citing [1], [2] for "residual", possibly textbooks, it's kinda basic stuff
 
 \subsection{Exchange particles and meson theories}
 The first theory for the nuclear force was developed by Yukawa, introducing his exchange particles.
-From an intuitive standpoint, the Heisenberg uncertainty principle allows for short term spontaneous creation of particles.
+From an intuitive standpoint, the Heisenberg uncertainty principle allows for short term spontaneous creation of particles \cite{machleidt_nuclear_2013}.
 These particles can then transfer momentum between two nucleons, by interactions, before vanishing again.
-This mechanism does impose certain range and strength constraints on the force however, as a stronger force requires more massive exchange particles, giving them less time to exist and travel between nucleons.
+This mechanism does impose certain range and strength constraints on the force however, as a stronger force requires more massive exchange particles, giving them less time to exist and travel between nucleons \cite{machleidt_nuclear_2013, hergert_guided_2020}.
 
 Yukawa predicted the properties of suitable exchange particles and when the pion and other suitable mesons were discovered they gave rise to so called meson theories. % 1950s
-Many properties of simpler interactions were explained well with One Boson Exchange (OBE) models, where only one exchange of each meson is considered.
-However, adapting the theory for multiple exchanges wasn't as straight forward and led to the development of many more advanced models (Paris, Bonn, Stony Brook). % 1970s
-
-% Though soon other suitable mesons were found and so they were added to the meson theory, this gave rise to One Boson Exchange theories, which only considered the exchange of single mesons.
-% These were very successful in explaining 
-% These theories fitted experiments very well when only single meson exchanges were possible and so were called One Boson Exchange models.
-% However, there were difficulties with multiple exchanges, though there were many 
-
-% Yukawa predicted the properties of a suitable exchange particle and soon the pion was discovered and was thought to be it.
-% Soon other mesons were found that also fulfilled the requirements and generally these 
-
-% Yukawa predicted a meson for the exchange particle and when the pion was discovered it was thought to be it, but as more suitable mesons were found and added, these are referred to as 'meson theories'.
-% At first pions were thought to be the exchange particles between nucleons, but then the theory was extended to many mesons as they were discovered, these .
-
-% this worked very well for simple systems, only considering single pion exchanges.
-% With 
-
-% However as theory and experiment disagreed for certain interactions and quarks were discovered, it turned out that there exists a strong force due to exchange of gluons between quarks.
-% The strong force both holds the nucleons together and as it turns out
-% However as certain more complicated interactions didn't agree with experiment, and the discovery of quarks
-
-% heavily citing [1], [2]
+Many properties of simpler interactions were explained well with One Boson Exchange (OBE) models, where only one exchange of each meson is considered \cite{machleidt_nuclear_2013}.
+However, adapting the theory for multiple exchanges wasn't as straight forward and led to the development of many more advanced models (Paris, Bonn, Stony Brook) \cite{machleidt_nuclear_2013, machleidt_meson_1989}.
 
 \subsection{Quantum Chromodynamics}
 Then Quantum Chromodynamics (QCD) was developed, quarks discovered and the strong force was introduced between them, mediated by gluons.
 This completely changed the picture of the nuclear force, as the attraction of nucleons was now attributed to residuals of the strong force, delegating the meson theories to models.
 However, calculating the nuclear force directly from QCD is very difficult for a variety of reasons, QCD is highly nonpertrubative at this range/scale making it is difficult to calculate and even a 2 nucleon interaction would already involve 6 quarks.
-Still, attempts are made using finite step computer simulations, called Lattice QCD, which are very useful for verifying simple interactions but aren't suitable for regular day-to-day applications.
-
-% still mostly [1], [2], [3]
+Still, attempts are made using finite step computer simulations, called Lattice QCD, which are very useful for verifying simple interactions but aren't suitable for regular day-to-day applications \cite{machleidt_nuclear_2013, hergert_guided_2020}.
 
 \subsection{Effective Field Theory}
 Applying Effective Field Theory (EFT) was the next break through, the key is that the significant effects may be studied independently at different scales.
 To use EFT one must first identify the degrees of freedom (the interacting particles/entities), in our case nucleons and mesons (at the nucleon scale, mesons are the relevant exchange particles).
-\footnote{explain later, I'm not sure I get it rn}
 Then one constructs a Lagrangian (which is essentially an expression describing the dynamics of the system) in a certain way.
 The key is to construct the most general possible Lagrangian that follows the same symmetries as the QCD strong force, as an expansion of $Q/\Lambda$.
 Where $Q$ is the typical momentum of the system and $\Lambda$ the range at which the EFT interaction model stops being applicable.
-The EFT application to QCD for modelling the nucleon interactions is called Chiral EFT (CEFT) as chirality (symmetry under reflection) is a key symmetry of the strong force.
-% Then one constructs a Lagrangian (essentially an expression describing the dynamics of the system) as an expansion of $Q/\Lambda$ similar to a multipole expansion from electromagnetism, where $Q$ is the typical momentum of the system and $\Lambda$ the range over which the expansion should be valid.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=.4\textwidth]{images/NFthe_diagram.png}
-    \caption{Feynman diagrams showing some of the first interactions that need to be considered when using CEFT. Solid lines represent nucleons and dashed lines pions. Different nodes represent different interactions.}\label{fig:diagram1}
-    % Most models predict many more yet unmeasured nuclei in the white zone, mostly under the visible data and a above what's called the neutron drip line (not shown in the plot).\cite{erler_limits_2012}}
-    % According to most predictions there could be once as many very unstable nuclei yet unmeasured (in the white zones).}
-\end{figure}
+The EFT application to QCD for modelling the nucleon interactions is called Chiral EFT (CEFT) as chirality (symmetry under reflection) is a key symmetry of the strong force \cite{machleidt_chiral_2011, machleidt_nuclear_2013, burgess_introduction_2007, hergert_guided_2020}.
 
 Using CEFT is a rather involved process but the following tries to provide a short outline of the key features.
 There are 2 main decisions, the first being how many nucleons do we include, the simplest being 2 nucleons (NN), following with 3 nucleons (3N), 4 nucleons (4N) and many nucleons.
 The second is how many terms of the mentioned expansion do we take into account, these simplest here is regarded as the Leading Order (LO) followed by Next Leading Order (NLO), Next Next Leading Order (NNLO) and so on.
 Determining both of these specifies which interactions need to be considered, \cref{fig:diagram1} shows Feynman diagrams for some.
-In these there are different types of nodes each associated with a Low Energy Constant (LEC) which are determined by fitting experimental data and influence how the interaction affects the force. % cite 2
-% For most of the 
+In these there are different types of nodes each associated with a Low Energy Constant (LEC) which are determined by fitting experimental data and influence how the interaction affects the force \cite{machleidt_chiral_2011, machleidt_nuclear_2013, burgess_introduction_2007, hergert_guided_2020}.
 
 \subsection{Nuclear Shell Theory}
 The nuclear shell model originates from scientists observing that atoms with certain numbers of protons and neutrons (called magic numbers, covered more later) were more stable than others, which resembled the effects of shell closures in the atomic shell model.
-Simplest shell models consider the individual nucleons to behave independently, each in a potential formed by the many NN interactions, where this potential results in a central potential with additional spin-orobit, spin-spin and tensor components.
+Simplest shell models consider the individual nucleons to behave independently, each in a potential formed by the many NN interactions, where this potential results in a central potential with additional spin-orobit, spin-spin and tensor components \cite{kruecken_introduction_2011}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.4\textwidth]{images/NFthe_diagram.png}
+    \caption{Feynman diagrams showing some of the first interactions that need to be considered when using CEFT. Solid lines represent nucleons and dashed lines pions. Different nodes represent different interactions \cite{machleidt_chiral_2011}.}\label{fig:diagram1}
+\end{figure}
 
 % The Nuclear Shell Model concerns the nuclear force from a different perspective, it is based on experimental observations made around the 1940s.
 % Scientists have observed that atoms that have certain numbers of protons or neutrons are more stable (called the magic numbers and covered more in the following sections).
