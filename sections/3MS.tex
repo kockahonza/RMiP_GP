@@ -14,27 +14,30 @@ Examining binding energy is key to understanding the nuclear theory, it is relat
 % Examining this excess mass “defect” is the most important metaphor of nuclear physics: “the valley of stability” which has the lowest mass excess.
 % Overweight nuclides that farther away from equilibrium tend to have their mass excess with much shorter half-lives which is defined by the binding energy.
 
-\subsection{How a general MS works}
-A general MS has three stages: an ioniser, mass analyser and a detector.
-A sample must be ionised before entering the mass analyser so it will interact with the magnetic and/or electric fields.
-In the mass analyser the beam is accelerated/deflected before being incident on a detector.
-The detector then measures the mass charge ratio based on the time or location of incidence \cite{noauthor_mass_nodate}.
-Ionization methods including thermal ionization, where the sample is heated and emits electrons on its own, and electron impact, where the sample is bombarded by electrons to excite the sample electrons which are then emitted.
-At the end, the ions are detected usually using an electron multiplier (like a Faraday cup) resulting in data on the amount of ions arriving at different times.
-The more ions hit a certain part of the detector it means the sample has more of that type of isotope in nature.
-And from all that, MS can generate the spectrum which is useful for analysing unknown samples.
+\subsection{How do mass spectrometers work}
+% A general MS has three stages: an ioniser, mass analyser and a detector.
+Firstly, a sample must be ionised before entering the mass analyser so it will interact with the magnetic and/or electric fields.
+Ionization methods including thermal ionization, where the sample is heated and emits ions on its own, and electron impact, where the sample is bombarded by electrons to excite the sample atoms which then emit ions.
+% In the mass analyser the beam is accelerated/deflected before being incident on a detector.
+% The detector then measures the mass charge ratio based on the time or location of incidence \cite{noauthor_mass_nodate}.
+Then the ions go through different processes depending on the type of MS and at the end, the ions are usually detected using an electron multiplier giving the number ions arriving at a given time \cite{noauthor_mass_nodate}.
+% The more ions hit a certain part of the detector it means the sample has more of that type of isotope in nature.
+% And from all that, MS can generate the spectrum which is useful for analysing unknown samples.
 
 \subsection{Penning traps}
-Penning traps are the most common MS with there currently being at least 7 active laboratories including CPT, ISOLTRAP, TITAN and SHIPTRAP, they also give us the most precise measurements for stable isotopes \cite{huang_ame_2021}.
-% Penning traps are the most common development with there currently being 7 active laboratories including CPT, ISOLTRAP, JYFLTRAP, LEBIT, SHIPTRAP, TITAN and TRIGA-TRAP and they also give us the most precise measurement for stable isotopes \cite{huang_ame_2021}.
-Just 15 years ago, the only Penning trap spectrometer publishing the masses of radioactive samples was the pioneering experiment ISOLTRAP, set up at CERN’s ISOLDE facility in 1986 \cite{lunney_new_2019}.
-Penning traps are based on a cyclotron design, and they trap the isotopes using a combination of strong longitudinal uniform magnetic and quadrupole electric fields, a high homogeneity also reduces the possibility of field drifts so that they move periodically and then the frequency is related to mass following the equation
+Penning traps are the most common MS in nuclear study where there are currently at least 7 active laboratories including CPT, ISOLTRAP, TITAN and SHIPTRAP, they give us the most precise measurements for stable isotopes \cite{huang_ame_2021}.
+Just 15 years ago, the only Penning trap spectrometer publishing the masses of radioactive samples was the pioneering experiment ISOLTRAP, set up at CERN’s ISOLDE facility in 1986 \cite{lunney_new_2019}. % RRR
+Penning traps are based on a cyclotron design, and they trap the isotopes using a combination of strong longitudinal uniform magnetic and an quadrupole electric fields, high homogeneity also reduces the possibility of field drifts so that they move periodically and the frequency is related to mass following the equation
 \begin{equation}
     \nu_c = \frac{1}{2\pi}\frac{qB}{m}
 \end{equation}
 
-The measured quantity is cyclotron frequency which can be essentially measured in high accuracy.
-Also, the coexistence of trapping and cooling minimizes systematic errors from mass measurement though the time it takes to complete a cycle is the main limitation of mass measurement which tends to limit the range of isotopic species that can be measured \cite{famiano_nuclear_2019}.
+To perform a mass measurement we then trap our sample in a Penning trap and scan through the suspected frequencies and measure the resonant response.
+The response will be highest when many ions orbit at the given frequency, usually the sample would include an ion the mass of which is to be measured and a reference ion of known mass, the frequencies and masses are then related to each other.
+From this also stems the main feature of Penning traps, it takes time to scan through the frequencies, meaning the more time available the more precise the measurement \cite{konig_quadrupole_1995}.
+
+% The measured quantity is cyclotron frequency which can be essentially measured in high accuracy.
+% Also, the coexistence of trapping and cooling minimizes systematic errors from mass measurement though the time it takes to complete a cycle is the main limitation of mass measurement which tends to limit the range of isotopic species that can be measured \cite{famiano_nuclear_2019}.
 
 \begin{figure}[H]
     \centering
@@ -51,5 +54,16 @@ The key is that the speed of the ions depends on the mass-to-charge ratio, so af
     t = \frac{d}{\sqrt{2U}}\sqrt{\frac{m}{q}}
 \end{equation}
 
-MR-TOF MSs are usually faster and more sensitive as a non-scanning device with high ultra-mass resolving power than a Penning trap.
-It has several advantages compared to a frequency-based mass spectrometer also including the single-ion sensitivity, short cycle time (5ms) and superior resolving power for a measurement time of 1s and mass-to-charge ratio larger than hundreds of amu \cite{dickel_multiple-reflection_2013}.
+The main benefit of MR-TOF compared to Penning traps is that there is no need to scan through a variable.
+The atoms simply arrive at the time and very high mass resolving power can be achieved in a small time, making them very well suited for measurements of very unstable nuclei (neutron rich in particular).
+This is visualised in \cref{fig:MSPTMRTOF} which shows the achievable mass resolving power given an available observation time of a Penning trap and MR-TOF present at ISOLTRAP in CERN.
+
+% MR-TOF MSs are usually faster and more sensitive as a non-scanning device with high ultra-mass resolving power than a Penning trap.
+% It has several advantages compared to a frequency-based mass spectrometer also including the single-ion sensitivity, short cycle time (5ms) and superior resolving power for a measurement time of 1s and mass-to-charge ratio larger than hundreds of amu \cite{dickel_multiple-reflection_2013}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.5\textwidth]{images/MS_PTMRTOF_graph.jpg}
+    \caption{The mass resolving power as a function of observation time for a Penning trap and MR-TOF MS. The MS compared are both from the ISOLTRAP experiment at CERN.
+    \cite{wolf_isoltraps_2013}}\label{fig:MSPTMRTOF}
+\end{figure}
