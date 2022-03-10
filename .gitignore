@@ -4,7 +4,7 @@
 *.blg
 *.fls
 *.log
-*.pdf
+main.pdf
 *.out
 *.synctex.gz
 *.run.xml
