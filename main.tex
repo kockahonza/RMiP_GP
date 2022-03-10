@@ -2,15 +2,18 @@
 \usepackage[top=60pt,bottom=80pt,left=60pt,right=60pt]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{multicol}
-\usepackage[style=chem-acs]{biblatex}
+\usepackage[style=phys,url=false,doi=false,isbn=false,eprint=false]{biblatex}
 \usepackage{float}
 \usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{changepage}
 \usepackage{titlesec}
 \usepackage{cleveref}
+\usepackage{hyperref}
 
 \addbibresource{bibliography.bib}
+\AtEveryBibitem{\clearlist{language}}
+% \AtEveryBibitem{\clearlist{note}}
 
 \titlespacing*{\section}{0}{0}{0.3em}
 
